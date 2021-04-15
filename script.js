@@ -68,12 +68,12 @@ var finale = (what) => {
     
     }
     if (comp_choice == "Rock") {
-        document.querySelector("img").src = "https://www.nationalgeographic.com/content/dam/science/2019/01/25/moon-rock/s71-29091--cropped-by-kring-.ngsversion.1548449403253.adapt.1900.1.jpg";
+        document.querySelector("img").src = "./images/rock.jpg";
     }
     else if (comp_choice == paper) {
-        document.querySelector("img").src = "http://i.ytimg.com/vi/c0WwpEx-y64/maxresdefault.jpg";
+        document.querySelector("img").src = "./images/paper.jpg" // "http://i.ytimg.com/vi/c0WwpEx-y64/maxresdefault.jpg";
     }
     else {
-        document.querySelector("img").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg/1200px-Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg"
+        document.querySelector("img").src = "./images/scissors.jpg" //"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg/1200px-Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg"
     }
     }

@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("http://blog.hostbaby.com/wp-content/uploads/2014/03/Trees_1920x1234.png");
+    background-image: url("./images/back.png") /* url("http://blog.hostbaby.com/wp-content/uploads/2014/03/Trees_1920x1234.png") */;
 }
 
 .war {
@@ -35,5 +35,5 @@ body {
     border-radius: 10px;
     margin-top: 10%;
     margin-left: 30%;
-    background-image: url("https://www.portablepress.com/wp-content/uploads/2017/11/Rock-Paper-Scissors.jpg");
+    background-image: url("./images/background.jpg") /* url("https://www.portablepress.com/wp-content/uploads/2017/11/Rock-Paper-Scissors.jpg") */;
 }
