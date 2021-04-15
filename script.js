@@ -9,7 +9,6 @@ let RPSgenerate = () => {
     return myArray[randint(0,2)];
 }
 
-console.log(RPSgenerate())
 
 var rock = document.querySelectorAll("button")[0].textContent;
 var paper = document.querySelectorAll("button")[1].textContent;
@@ -21,8 +20,7 @@ var finale = (what) => {
     let result = document.querySelector(".result h3");
     let your_choice = what;
     let comp_choice = RPSgenerate();
-    console.log(your_choice)
-    console.log(comp_choice)
+
     if (your_choice == comp_choice) {
         result.textContent = "Draw";
         result.style.color = "rgb(214, 231, 135)";
@@ -76,4 +74,4 @@ var finale = (what) => {
     else {
         document.querySelector("img").src = "./images/scissors.jpg" //"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg/1200px-Pair_of_scissors_with_black_handle%2C_2015-06-07.jpg"
     }
-    }
+}
